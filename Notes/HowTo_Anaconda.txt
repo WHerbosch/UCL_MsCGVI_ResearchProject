@@ -1,0 +1,41 @@
+Anaconda is a districution of the Python and R programming languages.
+It is used for large-scale data processing, predictive analysis and scientific computing.
+It aims to simplify package management and deployment. 
+
+When wanting to work on multiple projects, these projects may only working using certain packaged that can only be found in certain versions of Python. 
+So instead of formulating the projects to work under the same set of packages, we can create different python environments that have specific packages that we need. 
+
+This is an amazing tool in situations where you need to swap between Python 2 and 3
+
+Installation Page - https://anaconda.org/anaconda/python
+
+> conda list
+Lists all the python packages that comes preinstalled with Anaconda 
+
+> conda create --name NAME PACKAGE1 PACKAGE2 ... PACKAGEN
+Creates a new Python environment 
+where NAME is the name of the environment 
+PACKAGE1,2,N are the specific package names you want the environment to have
+Note: You need at least one PACKAGE to create a new environment 
+
+> source activate NAME
+Enter the environment
+Note: You can use "> pip list" to double-check the packages in that environment
+
+> which python 
+Check which environment you're currenrtly in
+
+> source deactivate 
+Close environment 
+
+> conda create --name NAME python=VERNUM PACKAGE1 PACKAGE2 ... PACKAGEN
+Creates a new Python environment with a specific Python version
+where VERNUM is the version number of Python that is to be used (i.e. 2.7)
+
+> conda env list
+Lists the environments that have been created 
+Note: an * should appear next to the environment that you are currently in
+
+> conda remove --name NAME PACKAGE
+Removes specified packages from an environment
+Note: Use --all instead of package names to delete the environment 

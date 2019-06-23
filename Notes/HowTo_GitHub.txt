@@ -1,0 +1,38 @@
+START A WORKING AREA:
+Clone a repository into a new directory (when you're currently in the new directory):
+	git clone [URL of online repository]
+Create an empty Git repository or reinitialise an existing one:
+	Create  		- git init 
+	Reinitialise 	- git init [URL of online repository]
+
+WORK ON THE CURRENT CHANGE (LOCAL):
+Add file contents to the index:
+	git add [filename]
+Move or rename a file, a directory or a symlink:
+	Move	- git mv [filename] [path to destination]
+	Rename 	- git mv [current filename] [new filename]
+Reset current head to the specified state (reset to a previous commit):
+	git reset [path to file] [commit number]
+Remove files from the working tree and the index:
+	git rm [filename]
+
+GROW, MARK AND TWEAK YOUR COMMON HISTORY:
+List, create a delete branches
+	Create 	- git branch [branch]
+	Delete 	- git branch -r [branch]
+Switch branches or restore working tree files:
+	git checkout [branch you want to move to]
+Record changes to the repository:
+	git commit -m [message]
+Show changes between commits:
+	git diff [commit number] [branch]
+Join two or more branches:
+	git merge [branch you want to merge with your current one]
+
+COLLABORATE:
+Download objects and references from another repository
+	git fetch [repository] [filename]
+Fetch from and integrate with another repository or a local branch:
+	git pull [URL of repository]
+Update remote files alone with associated objects:
+	git push -u origin master
