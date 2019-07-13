@@ -4,7 +4,8 @@ Virtual Annotator
 This MSc Project implements:
 - Anaconda https://anaconda.org/anaconda/python
 - Spyder IDE https://www.spyder-ide.org
-- Python 2.7, 3.4 and 3.6 https://www.python.org/downloads/
+- Caffe http://caffe.berkeleyvision.org
+- Python 2.7 (and 3.4 and 3.6) https://www.python.org/downloads/
 - Keras https://keras.io
 - SegNet http://mi.eng.cam.ac.uk/projects/segnet/demo.php#demo and https://github.com/toimcio/SegNet-tensorflow
 - NYU Depth Dataset V2 https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html
