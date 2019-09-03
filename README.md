@@ -11,6 +11,7 @@ This MSc Project implements:
 - Jupyter: https://jupyter.org/
 - MatLab2018a: https://www.mathworks.com/?s_tid=gn_logo
 - Google Colab: https://colab.research.google.com/notebooks/welcome.ipynb
+- A.Verdone's segmentation implementation https://averdones.github.io/real-time-semantic-image-segmentation-with-deeplab-in-tensorflow/
 
 ------------------------------------------------------------------------------------------
 The general structure of the directory goes as such:
