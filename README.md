@@ -19,9 +19,6 @@ The general structure of the directory goes as such:
 Documents:
 - Contains main pdf documents to be assessed throughout the project, including the final report. 
 
-Models:
-- Contains any models produced throughout the training/testing process.
-
 Notes:
 - Contains simple txt files that act as guides for understanding how to work with GitHub in Terminal as well as general notes taken for understanding the third party tools listed in the implementation section.
 
