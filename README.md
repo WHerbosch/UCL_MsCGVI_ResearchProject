@@ -16,9 +16,6 @@ This MSc Project implements:
 ------------------------------------------------------------------------------------------
 The general structure of the directory goes as such:
 
-Data: 
-- Contains any useful images or mat files, primarily those from the NYU dataset.
-
 Documents:
 - Contains main pdf documents to be assessed throughout the project, including the final report. 
 
@@ -36,6 +33,9 @@ Reading:
 
 Presentation_(ResearchMethods):
 - Contains a spare copy of the PowerPoint presentation made for the Research Methods module. Keep in mind this was an initial design for the project, which drastically differs from the final product. 
+
+Presentation_(DemoDay):
+- Contains a copy of the PowerPoint pdf made for the demonstration day on September 9th 2019.
 
 ------------------------------------------------------------------------------------------
 William Herbosch 
